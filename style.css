@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(24, 48, 68);
+}
+button{
+    cursor: pointer;
+}
+
+body.dark{
+    background-color: rgb(2, 9, 32);
+}
+
+button.b-light{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: rgb(14, 92, 138) 4px solid;
+    padding: 10px;
+    width: max-content;
+    border-radius: 25px;
+    background-color: rgb(34, 100, 158);
+    color: whitesmoke;
+    font-size: 40px;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: rgb(38, 70, 138) 4px solid;
+    padding: 10px;
+    width: max-content;
+    border-radius: 25px;
+    background-color: rgb(72, 104, 148);
+    color: whitesmoke;
+    font-size: 40px;
+}
+button.b-dark{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: rgb(38, 70, 138) 4px solid;
+    padding: 10px;
+    width: max-content;
+    border-radius: 25px;
+    background-color: rgb(72, 104, 148);
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+img, #captain{
+    width: 400px;
+}
+
+#thor{
+    width: 280px;
+}
+
+.avengers{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 50%;
+}
+
+#captain, #thor{
+    position: absolute;
+}
+
+
+#captain{
+    visibility: hidden;
+}
